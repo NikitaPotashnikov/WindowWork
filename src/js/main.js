@@ -1,3 +1,8 @@
 import "./slider";
+import modals from "./modules/modals";
+import tabs from "./modules/tabs";
 
-console.log('hello world');
+window.addEventListener('DOMContentLoaded', () => {
+  modals();
+  tabs();
+});
